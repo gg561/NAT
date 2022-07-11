@@ -1,0 +1,42 @@
+socketID_prefixes:
+	-0: void0
+	-1: final
+	-2: default
+	-3: static
+	-4: abstract
+socketID_subprefixes:
+	-0: return void
+	-1: return String
+	-2: return char
+	-3: return byte
+	-4: return int
+	-5: return long
+	-6: return short
+	-7: return float
+	-8: return double
+	-9: return blob
+socketID_modifiers:
+	-0: public
+	-1: inaccessible -> private/protected
+	-2: local
+socketID_contents:
+	-0: api-based
+	-1: nms-based
+	-2: lib-based
+	-3: mixed
+socketID_process:
+	-0: void0
+	-1: unsafe
+	-2: reflection
+socketID_additional:
+	-0: void0
+	-1: database
+	-2: configuration
+	-3: internal
+	-4: external
+	-5: custom
+socketID_ports:
+	-201: custom_database#loadAllFromDatabase
+	-202: custom_database#saveAllToDatabase
+	-400: executale_container#execute
+	-401: executable_container#executeIfContains

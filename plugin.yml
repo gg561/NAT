@@ -1,0 +1,13 @@
+main: net.joinmc.edenville.Naturality
+name: Naturality
+version: 0.0.1 SNAPSHOT
+api-version: 1.18
+author: Unknown87
+description: 
+commands:
+   nat:
+      usage: /<command>
+permissions:
+depend: [EDDK]
+load: STARTUP
+   
